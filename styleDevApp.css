@@ -149,3 +149,12 @@ figure{
 
     
 }
+
+
+  /* responsive MAC air*/
+
+  @media screen and (max-width : 1440px) {
+    .intitule{
+        width:35%;
+    }
+  }
