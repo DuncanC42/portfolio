@@ -1,0 +1,151 @@
+*{
+    background-color: black;
+    color:#30e33b;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    height: 300px;
+}
+
+.container {
+    margin-bottom: 10%;
+    position: relative;
+    text-align: center;
+}
+
+span>div{
+    top:10%;
+    position: fixed;
+    margin-left: 0;
+    width: 10%;
+}
+
+span>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+li>a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+ul>li>a:hover{
+    background-color: #30e33b;
+    color: black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+p.intro{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 15px;
+    box-shadow: 0 0 3px 3px grey;
+    line-height: 1.5;
+}
+
+ul{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li{
+
+    list-style: none;
+}
+
+.container hr {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    border: none;
+    border-top: 1px solid white;
+}
+
+.container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    height: 200px;
+}
+
+h3{
+    margin-bottom: -15px;
+}
+
+.projet>div>p{
+    margin-bottom: -5px;
+}
+
+.projet{
+    margin-left: 25%;
+    line-height: 1.5;
+}
+
+.boite-projet{
+    display: flex;
+    flex-direction: row;
+}
+
+.projet>div{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.intitule{
+    z-index: 10;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: -100px;
+    padding: -15px;
+    width: 30%;
+    border-radius: 5%;
+    text-align: justify;
+    margin-top: 30px;
+    height: 100px;
+    box-shadow: 0 0 3px 3px grey;
+
+}
+
+figure{
+    margin-top: -5px;;
+}
+
+.boite-projet>figure>img{
+    margin-left: 10%;
+    margin-bottom: 15%;
+    height: 160px;
+    width: 400px;
+    border-radius: 15%;
+    box-shadow: 0 0 3px 3px white;
+
+    
+}

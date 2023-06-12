@@ -1,0 +1,374 @@
+*{
+    margin:0;
+    color:#30e33b;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+
+header{
+    z-index: 15;
+    height: 100px;
+    width: auto;
+    position: sticky;
+    top:0;
+    background-color: black;
+}
+
+.navBar{
+    box-shadow: 0 4px 8px white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    
+}
+
+.navBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navBar li{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.navBar li:last-child {
+    margin-right: 0;
+}
+
+li.nav>a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+li.nav :hover{
+    background-color: #30e33b;
+    color:black;
+}
+
+main{
+
+    height: 200vh;
+
+}
+main>div.intro{
+    display: flex;
+    flex: 1;
+}
+
+.intro>img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 360%;
+    box-shadow: 0 0 3px 3px white;
+    
+
+}
+
+div.blocPropos{
+    display: flex;
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+main>div.about{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 45%;
+}
+div.intro{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2ch;
+}
+div.blocPropos{
+    flex-basis: 50%;
+    text-align: justify;
+    font-size: 3ch;
+}
+
+.blocPropos {
+    display: inline-flex;
+}
+
+div.blocPropos>span>div{
+    display: flex;
+    flex-direction: row;
+}
+
+div.blocPropos>span>div>a{
+    text-decoration: none;
+
+}
+
+div.blocPropos p{
+    line-height: 1.5;
+}
+
+
+.typewrite>span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+
+div.blocPropos>span{
+    margin: 0 35% 0 0;
+}
+
+h2{
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 7ch;
+    margin: 5%;
+    color: white;
+    text-decoration: underline;
+}
+
+h4{
+    font-size: 2ch;
+    color: white;
+}
+
+  
+  #formation {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .bac {
+    margin-top: -15%;
+    margin-left: 10%;
+    line-height: 2;
+    text-align: end;
+    flex: 1;
+    box-shadow: 0 0 3px 3px white;
+  }
+  
+  .tree {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+  }
+  
+  .line {
+    width: 5px;
+    height: 650px;
+    background-color: #30e33b;
+    box-shadow: 0 0 3px 1px #30e33b;
+
+  }
+  
+  .circle-bac {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 3px #30e33b;
+
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle-but {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 3px 3px #30e33b;
+
+}
+.but {
+    margin-top: 15%;
+    line-height: 2;
+    flex: 1;
+    margin-right: 15%;
+    box-shadow: 0 0 3px 3px white;
+
+}
+  
+  
+.bac>ul>li, .but>ul>li{
+    list-style-type: none;
+
+}
+  
+
+.futur{
+    box-shadow: 0 0 3px 3px #30e33b;
+    text-align: center;
+    margin: auto 35%;
+    line-height: 2;
+}
+
+.projet{
+    margin-left: 25%;
+    line-height: 1.5;
+}
+
+.langage{
+    margin-bottom: -15px;
+}
+
+.projet a{
+    text-decoration: none;
+}
+
+.boite-projet{
+    display: flex;
+    flex-direction: row;
+}
+
+.projet>div{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.intitule{
+    z-index: 10;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: -100px;
+    padding: -15px;
+    width: 30%;
+    border-radius: 5%;
+    text-align: justify;
+    margin-top: 30px;
+    height: 100px;
+    box-shadow: 0 0 3px 3px grey;
+
+}
+
+
+.boite-projet>figure>img{
+    margin-left: 20%;
+    margin-bottom: 15%;
+    height: 160px;
+    width: 400px;
+    border-radius: 15%;
+    box-shadow: 0 0 3px 3px white;
+
+    
+}
+
+
+
+table{
+    box-shadow: 0 0 3px 3px #30e33b;
+    margin-left: 25%;
+    width: 50%;
+    height: 25%;
+}
+
+td>img{
+    width: auto;
+    height: 50px;
+}
+
+tr,td{
+    border-color: black;
+    /*box-shadow: 0 0 3px 3px grey;*/
+    text-align: center;
+}
+
+table tr {
+    border-bottom: 2px solid #30e33b;
+}
+
+td.titreTab {
+    border-bottom: none;
+  }
+
+td.titreTab{
+    box-shadow: 0 0 3px 3px #30e33b;
+    text-align: left;
+    font-weight: bold;
+    font-size: 3ch;
+}
+
+.contactMe{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contactMe>div{
+    border-radius: 15%;
+    margin:2%;
+
+}
+
+.contactMe>div>img{
+    border-radius: 15%;
+    background-color: green;
+    width: auto;
+    height: 75px;
+    box-shadow: 0 0 3px 3px #30e33b;
+
+}
+
+.contactMe>div>img:hover{
+    box-shadow: 0 0 3px 3px white;
+
+} 
+
+
+button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color:black;
+}
+
+button{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  }
