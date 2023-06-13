@@ -350,16 +350,10 @@ td.titreTab{
     display: none;
 }
 
-.social_link:hover .social_text > span {
-    margin-left: 50px;
-    display: block;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-}
+
 
 .social_link:hover{
-    padding-right: 50px;
+    margin-top:-50px;
     text-decoration: none;
 }
 
@@ -404,7 +398,7 @@ button{
 
   /* responsive MAC air*/
 
-  @media screen and (max-width : 1440px) {
+  @media screen and (max-width : 1800px) {
     .blocPropos>span{
         min-width: 90%;
     }
