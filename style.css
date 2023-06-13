@@ -271,7 +271,7 @@ h4{
 	align-items: flex-start;
 	flex-direction: column;
 	margin-right: -100px;
-    padding: -15px;
+    padding: 0px 5px;
     width: 30%;
     border-radius: 5%;
     text-align: justify;
@@ -287,7 +287,7 @@ h4{
     margin-bottom: 15%;
     height: 160px;
     width: 400px;
-    border-radius: 15%;
+    border-radius: 100px;
     box-shadow: 0 0 3px 3px white;
 
     
@@ -326,35 +326,53 @@ td.titreTab{
     font-weight: bold;
     font-size: 3ch;
 }
-
-.contactMe{
+.contact_content{
     display: flex;
-    text-align: center;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    gap: 50px;
+    height: auto;
+    margin-bottom: 5%;
 }
 
-.contactMe>div{
-    border-radius: 15%;
-    margin:2%;
-
-}
-
-.contactMe>div>img{
-    border-radius: 15%;
-    background-color: green;
-    width: auto;
-    height: 75px;
-    box-shadow: 0 0 3px 3px #30e33b;
+.social_link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    padding: 5px;
+    height: 100px;
 
 }
 
-.contactMe>div>img:hover{
-    box-shadow: 0 0 3px 3px white;
+.social_text>span{
+    display: none;
+}
 
-} 
+.social_link:hover .social_text > span {
+    margin-left: 50px;
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.social_link:hover{
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+
+.social_link>img{
+    height:auto;
+    width: 100px;
+    background-color: none;
+}
+
+
+
+/*box-shadow: 0 0 3px 3px white;*/
 
 
 button {
@@ -379,6 +397,10 @@ button{
   }
 
 
+.footer{
+    height: 50px;
+    text-align: center;
+}
 
   /* responsive MAC air*/
 
