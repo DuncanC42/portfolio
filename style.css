@@ -401,7 +401,6 @@ button{
   @media screen and (max-width : 1800px) {
     .blocPropos>span{
         min-width: 90%;
-	margin-top : 40px;
     }
 
     main{
